@@ -1,0 +1,13 @@
+{
+  "env": "production",
+  "server": "http://localhost:4723/wd/hub",
+  "capabilities": {
+    "platformName": "iOS",
+    "automationName": "xcuitest",
+    "deviceName": "iPhone 7",
+    "platformVersion": "10.2",
+    "sendKeyStrategy": "setValue",
+    "waitForAppScript": "true",
+    "app": "./app/WordPress.app"
+  }
+}

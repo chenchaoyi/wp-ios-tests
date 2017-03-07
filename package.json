@@ -1,0 +1,12 @@
+{
+  "name": "wp-ios-test",
+  "version": "0.0.1",
+   "author": "Chaoyi Chen <ccy.chenchaoyi@gmail.com>",
+  "dependencies": {
+    "appium": "1.6.3",
+    "chai": "^3.5.0",
+    "config": "^1.25.1",
+    "cyancat": "0.1.0",
+    "mocha": "^3.2.0"
+  }
+}

@@ -1,0 +1,21 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+.DS_Store
+
+pids
+logs
+results
+node_modules
+npm-debug.log
+config/runtime.json
+mocha_report.xml
+mocha_report.json
+
+# WebStorm
+.idea
+

@@ -1,0 +1,12 @@
+{
+  "testUser1": {
+    "email": "ccy77",
+    "password": "Nothingtolookhere",
+    "username": "ccy77"
+  },
+  "errorMsg": {
+    "invalidPasswordMsg": "Your password and email do not match. Please try again or reset your password.",
+    "loginGenericError": "Oops! We ran into some trouble. Please try again.",
+    "noSearchResults": "There were no online search results for"
+  }
+}
