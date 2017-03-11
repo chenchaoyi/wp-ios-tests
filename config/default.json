@@ -1,6 +1,7 @@
 {
   "env": "production",
   "server": "http://localhost:4723/wd/hub",
+  "remoteAppName": "wp.zip",
   "capabilities": {
     "platformName": "iOS",
     "automationName": "xcuitest",
