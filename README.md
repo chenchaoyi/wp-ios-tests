@@ -40,5 +40,9 @@ $ appium-doctor --ios
 
 # Run all the tests with all Appium command traffic in Charles proxy (https://www.charlesproxy.com/):
 NODE_CONFIG='{"proxy": "http://127.0.0.1:8888"}' ./node_modules/.bin/mocha test/wp/publish.js
+
+# Run all test with Magellan on Sauce Labs:
+SAUCE=true SAUCE_USERNAME=account SAUCE_ACCESS_KEY=key ./node_modules/.bin/magellan --max_test_attempts=1 test/wp/publish.js --browsers=iphone_10_2_OS_X_10_11_iPhone_7,iphone_10_2_OS_X_10_11_iPhone_7_Plus --sauce=true --max-workers=5
+
 ```
 
